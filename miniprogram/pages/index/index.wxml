@@ -1,0 +1,13 @@
+<view class="container">
+  <view class="chat-container">
+    <!-- 聊天界面 -->
+    <text class="chat-text">聊天内容</text>
+    <!-- 更多聊天内容可以在这里继续添加 -->
+  </view>
+  <map></map>
+  <view class="input-container">
+    <button class="upload-image-btn">文件</button>
+    <input class="input-box" placeholder="输入内容" />
+    <button class="submit-btn">提交</button>
+  </view>
+</view>

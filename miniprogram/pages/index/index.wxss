@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.chat-container {
+  flex: 1;
+  padding: 20rpx;
+}
+
+.chat-text {
+  margin-bottom: 20rpx;
+  /* 根据需要设置更多样式 */
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 2rpx;
+  margin: 0 30rpx;
+  
+
+  /*border-top: 1px solid #5f5c5c;*/
+  /* 设置背景颜色和边框，根据需要调整 */
+}
+
+.upload-image-btn
+ {
+  margin-right: 5rpx;
+  /* 设置按钮样式 */
+}
+.input-box {
+  flex:1;
+  border: none;
+  border-radius: 5rpx;
+  padding: 10rpx;
+  /* 设置输入框样式 */
+}
+
+
