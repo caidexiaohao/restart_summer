@@ -23,7 +23,7 @@
   </scroll-view>
   <view class="input-container">
     <button class="upload-image-btn">文件</button>
-    <input class="input-box" placeholder="健康问题随时问..." bindinput="onInput" />
+    <input class="input-box" placeholder="健康问题随时问..." bindinput="onInput" value="{{inputValue}}" />
     <button class="submit-btn" bindtap="submitInfo">提交</button>
   </view>
 </view>
