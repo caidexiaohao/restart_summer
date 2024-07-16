@@ -1,6 +1,0 @@
-<view class="container">
-  <view class="mine-content">
-    <!-- 这里放置“我的”界面的内容 -->
-    <text>我的界面</text>
-  </view>
-</view>
